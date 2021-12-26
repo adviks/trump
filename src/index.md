@@ -1,10 +1,9 @@
 ---
-title: Hello world
+title: Homepage
 layout: base.njk
 ---
 
-# Wow what a surprise.
-
+#### Homepage Content
 This is a long text with all sorts of things to prove that I can write things for a better distance. I would like to also tell you that there are a few things that are better left unsaid, but what about some other things. 
 
 We should also talk about that part of our conversation that we have not even talked to anyone yet.
