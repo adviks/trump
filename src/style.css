@@ -1,0 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body{
+    max-width: 70ch;
+    margin: auto;
+    padding: 2%;
+}
