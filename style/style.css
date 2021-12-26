@@ -18,11 +18,13 @@ ol > li {
 }
 .post_title {
   font-size: calc(38px + (100 - 38) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 900;
+  font-weight: 800;
   line-height: 0.8em;
   letter-spacing: -0.02em;
 }
 /* Fonts */
+
+
 @import url(https://rsms.me/inter/inter.css);
 
 @font-face {
@@ -64,4 +66,26 @@ ol > li {
   font-style: normal;
   font-weight: 700;
   src: url(cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-75bd.woff) format("woff");
+}
+
+
+pre {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 18px;
+	line-height: 22px;
+  border-radius: 4px;
+	padding: 10px;
+	color: #d8dee9;
+  background-color: #2f2f2f;
+}
+pre code {
+	padding: 10px;
+	color: #fff;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
 }
