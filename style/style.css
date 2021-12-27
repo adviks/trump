@@ -1,3 +1,10 @@
+/* Fonts Import */
+@import url(https://rsms.me/inter/inter.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Fonts Import End */
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -10,16 +17,16 @@ body {
   /* max-width: 70ch; */
   margin: auto;
   line-height: 1.5em;
-  color: #2f2f2f;
+  color: #000;
   padding: 2%;
 }
 
 .post-content > p,
 ul > li,
 ol > li {
-  font-family: Independent, Georgia, "Times New Roman", Times, serif;
-  font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
-  line-height: 1.5em;
+  font-family: Amiri, Independent, Georgia, "Times New Roman", Times, serif;
+  font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1680 - 320)));
+  line-height: 1.3em;
 }
 .post-title {
   font-size: calc(38px + (100 - 38) * ((100vw - 320px) / (1680 - 320)));
@@ -60,7 +67,7 @@ ol > li {
 
 /* Fonts */
 
-@import url(https://rsms.me/inter/inter.css);
+
 
 @font-face {
   font-family: Independent;
