@@ -10,6 +10,14 @@ html {
   font-size: 100%;
 }
 
+::-moz-selection { /* Code for Firefox */
+  background: #fdfd96;
+}
+
+::selection {
+  background: #fdfd96;
+}
+
 body {
   font-family: Inter, Arial, Helvetica, sans-serif !important;
   font-size: 18px;
@@ -34,7 +42,7 @@ a:hover {
   line-height: 1.3em;
 }
 .post-title {
-  font-size: calc(38px + (100 - 38) * ((100vw - 320px) / (1680 - 320)));
+  font-size: calc(48px + (100 - 48) * ((100vw - 320px) / (1680 - 320)));
   font-weight: 750;
   line-height: 1em;
   letter-spacing: -0.02em;
