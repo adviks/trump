@@ -1,7 +1,7 @@
 /* Fonts Import */
 @import url(https://rsms.me/inter/inter.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* Fonts Import End */
 
@@ -13,10 +13,10 @@ html {
 body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 18px;
-  /* max-width: 70ch; */
+  max-width: 660px;
   margin: auto;
   line-height: 1.5em;
-  color: #000;
+  color: #2f2f2f;
   padding: 2%;
 }
 
@@ -24,7 +24,7 @@ body {
 ul > li,
 ol > li {
   font-family: Amiri, Georgia, "Times New Roman", Times, serif;
-  font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1680 - 320)));
+  font-size: calc(20px + (22 - 20) * ((100vw - 320px) / (1680 - 320)));
   line-height: 1.3em;
 }
 .post-title {
@@ -35,25 +35,38 @@ ol > li {
 }
 
 /* Post Layout */
-
+/* 
 @media only screen and (min-width: 50em) {
   .flex-container {
     display: flex;
-}
-.main-content{
-  padding:auto 20px;
-}
-}
+    padding: 1% 5%;
+  }
+  .main-content {
+    padding: auto 20px;
+  }
+} */
+
 .main-content {
   flex: 2;
 }
 
-.sidebar {
+/* .sidebar {
   flex: 1;
 }
 
+.side-heading{
+  padding: 0;
+  margin: 0%;
+  font-size: calc(24px + (28 - 24) * ((100vw - 320px) / (1680 - 320)));
+}
+.side-post-title{
+  border-bottom: 1px dotted black;
+}
+.side-post-title > h4{
+  margin: 2% auto;
+}
 /* TEST CLASSES */
-.box {
+/* .box {
   padding: 20px;
   border-radius: 2px;
 }
@@ -64,50 +77,10 @@ ol > li {
   background-color: darkolivegreen;
 }
 
-/* Fonts */
+.coral-text {
+  color: #ff7f50;
+} */ */
 
-
-
-@font-face {
-  font-family: Independent;
-  font-style: normal;
-  font-weight: 400;
-  src: url(cdn/_/fonts/Independent/independent-regular.woff) format("woff");
-}
-
-@font-face {
-  font-family: Independent;
-  font-style: normal;
-  font-weight: 700;
-  src: url(cdn/_/fonts/Independent/independent-bold.woff) format("woff");
-}
-@font-face {
-  font-family: Independent;
-  font-style: italic;
-  font-weight: 400;
-  src: url(cdn/_/fonts/Independent/independent-italic.woff) format("woff");
-}
-
-@font-face {
-  font-family: NeueHaas;
-  font-style: normal;
-  font-weight: 400;
-  src: url(cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-55rg.woff) format("woff");
-}
-
-@font-face {
-  font-family: NeueHaas;
-  font-style: normal;
-  font-weight: 600;
-  src: url(cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-65md.woff) format("woff");
-}
-
-@font-face {
-  font-family: NeueHaas;
-  font-style: normal;
-  font-weight: 700;
-  src: url(cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-75bd.woff) format("woff");
-}
 
 pre {
   box-sizing: border-box;
@@ -126,8 +99,5 @@ pre {
 pre code {
   padding: 10px;
   color: #fff;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
-    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
-    monospace;
+  font-family: Consolas, Monaco, "Courier New", Courier, monospace;
 }
