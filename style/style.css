@@ -11,18 +11,24 @@ html {
 }
 
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: Inter, Arial, Helvetica, sans-serif !important;
   font-size: 18px;
   max-width: 660px;
   margin: auto;
   line-height: 1.5em;
   color: #2f2f2f;
-  padding: 2%;
+  padding: 2% 5%;
 }
-
+a {
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+a:hover {
+  background-color: #fdfd96;
+}
 .post-content > p,
-ul > li,
-ol > li {
+.post-content > ul > li,
+.post-content > ol > li {
   font-family: Amiri, Georgia, "Times New Roman", Times, serif;
   font-size: calc(20px + (22 - 20) * ((100vw - 320px) / (1680 - 320)));
   line-height: 1.3em;
@@ -30,7 +36,7 @@ ol > li {
 .post-title {
   font-size: calc(38px + (100 - 38) * ((100vw - 320px) / (1680 - 320)));
   font-weight: 750;
-  line-height: 0.8em;
+  line-height: 1em;
   letter-spacing: -0.02em;
 }
 
@@ -79,10 +85,8 @@ ol > li {
 
 .coral-text {
   color: #ff7f50;
-} */ */
-
-
-pre {
+} */
+*/ pre {
   box-sizing: border-box;
   width: 100%;
   padding: 0;

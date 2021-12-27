@@ -9,8 +9,8 @@ This is a long text with all sorts of things to prove that I can write things fo
 We should also talk about that part of our conversation that we have not even talked to anyone yet.
 
 
-### Latest Posts
+## Latest Posts
 
 {% for post in collections.posts%}
-[{{post.data.title}}]({{post.url}})
+### [{{post.data.title}}]({{post.url}})
 {% endfor %}
