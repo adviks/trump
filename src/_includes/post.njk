@@ -10,5 +10,16 @@ layout: base.njk
     <section class="post-content">
       {{ content | safe }}
     </section>
+
+    <section class="comments">
+      <div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="f059442e-ef8c-431d-9be7-06216a9fd2bc"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+    </section>
   </section>
 </main>
